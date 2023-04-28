@@ -1,0 +1,82 @@
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #000000;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(154, 153, 153, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of the CSS code remains the same */
+
+
+.about-us h1 {
+  font-size: 3em;
+  color: #000000;
+  color: #000000;
+
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  color: #292424;
+  margin-bottom: 20px;
+}
+
+.about-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+}
+
+.about-us li {
+  margin: 0 10px;
+}
+
+.about-us li i {
+  font-size: 2em;
+  color: #666;
+  transition: color 0.3s ease-in-out;
+}
+
+.about-us li:hover i {
+  color: #333;
+}
+
+.about-us li span {
+  font-size: 1.2em;
+  color: #000000;
+  margin-left: 5px;
+}
+
+.about-us ul:last-child {
+  margin-top: 50px;
+}
+
+.about-us ul:last-child li {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #121111;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.about-us ul:last-child li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.about-us ul:last-child li:hover {
+  background-color: #666;
+}
+
+.about-us p:last-child {
+  margin-top: 50px;
+}
